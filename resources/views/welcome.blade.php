@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel Socialite</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -45,7 +45,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 64px;
             }
 
             .links > a {
@@ -64,7 +64,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div>
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel Socialite
                 </div>
 
                 <div class="links">
